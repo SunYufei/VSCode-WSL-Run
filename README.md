@@ -8,13 +8,21 @@
 
 请参考[官方安装指南](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
 
-### Step 2 安装VSCode
+### Step 2 在WSL中安装编译环境
+
+```shell
+sudo apt install build-essential
+sudo apt install openjdk-8-jdk
+sudo apt install python3
+```
+
+### Step 3 安装VSCode
 
 请到[VSCode官网](https://code.visualstudio.com/)下载安装适合的Windows版本
 
-### Step 3 安装插件 Launcher
+### Step 4 安装插件 Launcher
 
-### Step 4 下载 VSCode-WSL-Run
+### Step 5 下载 VSCode-WSL-Run
 
 ```shell
 git clone --depth=1 https://github.com/SunYufei/VSCode-WSL-Run
@@ -22,7 +30,7 @@ git clone --depth=1 https://github.com/SunYufei/VSCode-WSL-Run
 
 将VSCode-WSL-Run文件夹添加到系统环境变量中
 
-### Step 5 VSCode 设置
+### Step 6 VSCode 设置
 
 点击文件->首选项->设置，在用户设置中添加
 ```
@@ -32,7 +40,7 @@ git clone --depth=1 https://github.com/SunYufei/VSCode-WSL-Run
 }
 ```
 
-### Step 6 使用
+### Step 7 使用
 
 使用VSCode打开源代码文件，按下`Ctrl+Shift+T`即可编译运行单一代码文件
 
