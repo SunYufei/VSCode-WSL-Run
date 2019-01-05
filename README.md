@@ -48,4 +48,5 @@ git clone --depth=1 https://github.com/SunYufei/VSCode-WSL-Run
 ## 致谢
 
 [SilenceU's Blog](https://silenceu.me/tool/vscodeide.html)
+
 [vscode-launcher](https://github.com/ilich/vscode-launcher)
